@@ -18,11 +18,11 @@ should demonstrate basic CRUD (Create, Read, Update, Delete) operations.
 ## Authentication
   - Device gem
 
-## Pagination
-  - kaminari gem
-
-## Database seed
-  - faker gem
+## Database configuration
+  you can get and set the database configurations [`DATABASE_CONFIGURATON`](/api/config/database.yml)
+  
+## Employe credentials
+  You can get the employees credentials from [`Seed.rb`](/api/db/seeds.rb) file.
 
 ## How to run application on Local environment
 

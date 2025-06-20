@@ -9,10 +9,15 @@
 #   end
 # db/seeds.rb
 require 'faker'
-
-# Clear old data
+#Clear old data
 Task.destroy_all
 User.destroy_all
+
+EMPLOYEES = {
+  'linda@example.com' => 'password123',
+  'mark_selby@example.com' => 'password123',
+  'mbushkin@example.com' => 'password123',
+}.freeze
 
 # Create demo user
 demo_user = User.create!(
@@ -31,12 +36,11 @@ demo_user = User.create!(
   )
 end
 
-# Optional: seed extra users
-3.times do
+EMPLOYEES.each do |email, password|
   user = User.create!(
-    email: Faker::Internet.unique.email,
-    password: 'password123',
-    password_confirmation: 'password123'
+    email: email,
+    password: password,
+    password_confirmation: password
   )
 
   rand(3..7).times do
