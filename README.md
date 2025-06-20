@@ -1,4 +1,4 @@
-## Exper Cloud - Task Manager assessment
+# Exper Cloud - Task Manager assessment
 
 Build a simple web application that allows users to manage a list of tasks. This application
 should demonstrate basic CRUD (Create, Read, Update, Delete) operations.
@@ -7,7 +7,7 @@ should demonstrate basic CRUD (Create, Read, Update, Delete) operations.
  * site (frontend) - build in react.js
  * relational database (postgresql)
 
-# Project dependencies
+## Project dependencies
 
   - Rails 7.2.2.1
   - ruby 3.3.0
@@ -15,16 +15,16 @@ should demonstrate basic CRUD (Create, Read, Update, Delete) operations.
   - npm version = 6.14.8
   - npm install bootstrap
 
-# Authentication
+## Authentication
   - Device gem
 
-# Pagination
+## Pagination
   - kaminari gem
 
-# Database seed
+## Database seed
   - faker gem
 
-# How to run application on Local environment
+## How to run application on Local environment
 
   * Rails application
     - cd api
