@@ -1,0 +1,21 @@
+#Rails stuff
+/api/log/
+/api/tmp/
+/api/db/*.sqlite3
+/api/storage/
+/api/.env
+/api/.byebug_history
+/api/config/master.key
+
+
+
+# Ignore Node stuff
+/site/node_modules/
+/site/.env
+/site/build/
+/site/.next/
+/site/dist/
+
+# General
+.DS_Store
+.env
